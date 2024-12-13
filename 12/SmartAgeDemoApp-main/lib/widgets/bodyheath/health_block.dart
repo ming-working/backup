@@ -11,6 +11,7 @@ import 'package:smartage_care/widgets/bodyheath/widgets/body_temperature_chart.d
 import 'widgets/line_chart.dart';
 import 'block_info.dart';
 import 'heart_rate_page.dart';
+import 'package:smartage_care/screens/main_screen/settings/settings.dart';
 
 class BodyHealthBlocks extends StatefulWidget {
   const BodyHealthBlocks({super.key});
@@ -43,7 +44,7 @@ class _BodyHealthBlocksState extends State<BodyHealthBlocks> {
             onTap: () {
               switch (index) {
                 case 0:
-                  Get.to(() => const HeartRatePage());
+                  Get.to(() => Settings());
                   break;
                 case 1:
                   Get.to(() => const BloodOxygenPage());
