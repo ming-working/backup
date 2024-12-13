@@ -1,0 +1,1 @@
+/* this is the constnats file for regex for format checker for the validator for password and email. */

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "920895648172",
+    "firebase_url": "https://smartage-31839-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smartage-31839",
+    "storage_bucket": "smartage-31839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920895648172:android:5f47b3e423041ca5de8a09",
+        "android_client_info": {
+          "package_name": "com.SmartAge.SmartAge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920895648172-49ohj0tgclmtcgusnuuc8skgk1n0loh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUi5DHzhqhH1_sjGtERclGyQHIZ1IqSFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920895648172-49ohj0tgclmtcgusnuuc8skgk1n0loh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

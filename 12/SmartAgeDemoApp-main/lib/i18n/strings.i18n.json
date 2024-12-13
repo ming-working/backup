@@ -1,0 +1,223 @@
+{
+    "mainScreen": {
+      "title": "Dad's Health Overview",
+      "iconText": {
+        "tDashBoardTitle":"Dad's Health Overview",
+        "tMessageButton": "Message",
+        "tCircleofSupport": "Circle of Support",
+        "tNotice": "Notification",
+        "tCall": "Call",
+        "tActivityClockTitle": "Activity Clock",
+        "tCheckActivityReport": "Check Activity Analysis"
+      },
+      "tRooms":["------", "Bedroom", "Bathroom", "Kitchen"],
+
+      "tCNRooms":["------", "Bedroom", "Bathroom", "Kitchen"],
+      "tapMe": "Testing Eng",
+      "warning":{
+        "tAlert":"Latest Emergency Alert",
+        "tCheckAlert":"Check all alerts",
+        "tNotWakeup": "Dad has not get up!",
+        "tNotWakeupwithDate": "11 August 10:00AM Dad has not get up"      },
+      "healthBlock":{
+        "tHealthBlockTitle": "Today's Health Index",
+        "tHeartRate": "HR",
+        "tBloodOxygen": "SPO2",
+        "tBloodPressure": "BP",
+        "tBodyTemp": "Temp",
+        "tBloodSugar": "H'stix",
+        "tHealthTitle": "Health Details" 
+      }
+    },
+    "warningScreen":{
+        "tWarningTitle": "Health Alerts",
+        "tFormTitle": "Assistant Form",
+        "tNormalText": "Normal",
+        "tAbnormalText": "Abnormal",
+        "tWarningText": "Warning",
+        "tContactElderly":"Contact Elderly",
+        "tSettleNow": "Settle now",
+        "tRemind":"Remind me later",
+        "tSupport":"Dad's support circle",
+        "tLoc":"Elderly Centre/ Activity Centre",
+        "tMs":"Ms.Chan （Person in-charge）",
+        "tSave":"Contact Elderly immediately to ensure safety",
+        "tCallIme":"Call immediately",
+        "tWakeupTime":"[Usual: Wake-up time is 6:30AM-7:30AM]",
+        "tNotWakeup":"11 Aug 10:00AM Dad has not get up",
+        "tSlpPtn":"Sleeping Pattern",
+        "tNocturia":"Nocturia",
+        "tPastRV":"[Average Number of Restroom Visits at Night over the Past Week: 0.9 times]",
+        "tPresentRV":"This Week Number of Restroom Visits increase to 2.34 times",
+        "tToiletingHabit":"Toileting habit",
+        "tCheckAllActivities":"Check All Activities"
+
+
+  
+
+
+    },
+    "profileScreen":{
+      "tProfile": "Profile",
+      "tEditProfile": "Edit Profile",
+      "tMenu1": "Settings",
+      "tMenu4": "Information",
+      "tMenu2": "Billing Details",
+      "tMenu3": "User Management",
+      "tlogout":"Logout",
+      "tlogoutDiag":"Do you want to continue to logout?",
+      "tYes":"Yes",
+      "tNo":"No"
+          
+            
+    },
+    "tGlobal":{
+      "tNo": "NO",
+      "tYes": "YES",
+      "tCancel": "Cancel",
+      "tNext": "Next",
+      "tLogin": "Login",
+      "tEmail": "Email",
+      "tSignup": "Sign Up",
+      "tLogout": "Log Out",
+      "tDelete":"Delete",
+      "tPhoneNo": "Phone No",
+      "tPassword": "Password",
+      "tRepeatPW": "Repeat Password",
+      "tFullName": "Full Name",
+      "tOlderCode": "Elder Code",
+      "tForgetPassword": "Forget Password",
+      "tSignInWithGoogle": "Sign In with Google",
+      "tConfirmSignUp": "Confirm Sign Up"
+    },
+    "noticeControl":{
+      "tBreakfast":"No Breakfast",
+      "tLunch":"No Lunch",
+      "tLunchNo":"Notify me between 2:00PM to 3:00PM",
+      "tDinner":"No Dinner",
+      "tDinnerNo":"Notify me between 10:00PM to 11:00PM",
+      "tOther":"Other meal times",
+      "tNotgetup":"Not get up at 10:00AM",
+      "tNotgoBed":"Not go to bed after 00:00AM",
+      "tNotify":"Notify me between 00:00AM to 01:00AM",
+      "tVisitToiletTime": "Visit Toilet more than 10 times during daytime",
+      "tNotifyT": "Notify me between 10:00PM to 11:00PM",
+      "tOverstay": "Overstay in Bathroom"
+      ,
+      "tNotifyI": "Notify me between 10:00AM to 11:00AM",
+      "tDoor":"Excessive Door Opening Hours",
+      "tQuan": "Average Activity Level This Week is 50% Lower Than the Past Week",
+      "tStep": "Number of Daily Steps",
+      "tMeals": "Meals",
+      "tSleeping": "Sleeping",
+      "tGoToRestroom": "Restroom",
+      "tDoorOpen": "Door Open",
+      "tActiveTime": "Active Time"
+
+    },
+    "circleOfSupportScreen":{
+      "tCoSScreenTitle": "Circle of Support",
+      "tCoSLeader": "Leader",
+      "tMember": "Member",
+      "tCoSMember": "Members",
+      "tAddMember": "Add members",
+      "tManage":"Manage",
+      "tLeaveCos": "Leave Circle of Support",
+      "tLeaveCoSHint": "If you are no longer a member of Dad's support circle, you may leave at any time."
+    },
+    "activityReport":{
+      "tActivityReportTitle": "Dad's Activity Analysis",
+      "tNormal":"Normal",
+      "tAbnormal":"Abnormal",
+      "tResult": "Data Analysis Results",
+      "tBefore":" (Before)",
+      "tAfter": " (After)",
+      "tNormalDescription":"No activity during sleep",
+      "tAbnormalDescription":"Abnormal activity at night"
+
+
+
+    },
+    "chatListPage":{
+      "tTitle":"Nurse"
+    },
+    "reportWidget":{
+      "tLifestyle":"Lifestyle",
+      "tWeekly":"Weekly Report",
+      "tMonthly":"Monthly Report",
+      "tYearly":"Yearly Report",
+      "tMeal":"Meals Time",
+      "tFreq":"Frequency: ",
+      "tBF":"Breakfast: ",
+      "tLunch":"Lunch: ",
+      "tDinner":"Dinner: ",
+      "tSlp":"Sleeping",
+      "tGetup":"Get up: ",
+      "tBed":"Bedtime: ",
+      "tAvg":"Average Hours: ",
+      "tBodyMove":"Body movements： mid-low",
+      "tNight":"Nighttime get up："
+
+    },
+    "Settings":{
+      "tLang":["English","中文(繁體)","中文(简体)"],
+      "tLangText":"Language: ",
+      "tSettings":"Settings",
+      "tSave":"Save Changes?",
+      "tSaveDes":"Do you want to save your selection?"
+
+    },
+    "Question":{
+      "tQuestionnaire": "Questionnaire: ",
+      "tQuestionType":["Nocturia"],
+      "tButtonText":"Contact Elderly",
+
+      "tContacted":"Elderly has been contacted!",
+      "tAskFill":"Please fill in the questionnaire now",
+      "tEmpty":"You have unfilled question",
+      "tDone":"Questionnaire completed!",
+      "tNotNow":"Not now",
+      "tContact":"Contact",
+      "tIfNurse":"Do you need nurse consultation now?",
+      "tQuestion1": "How often does the elderly urinate at night?",
+      "tQuestion2": "What is the color of the urine?",
+      "tQuestion3": "How much does the elderly urinate every time?",
+      "tQuestion4": "How much water/drinks did the elderly drink 2 hrs before going to bed?",
+      "tQuestion5": "Did the elderly eat stimulating food or drink(including coffee, tea, wine, etc.) the day before nocturia?",
+      "tAnswer1": ["1 time", "2 times", "3 times", "more than 3 times"],
+      "tAnswer2": ["transparent", "light yellow", "yellow", "dark yellow", "bloody", "foamy"],
+      "tAnswer3": ["more than daytime", "similar to daytime", "less than daytime"],
+      "tAnswer4": ["<200 mL", "200-400 mL", ">400 mL"],
+      "tAnswer5": ["Yes", "No", "have no idea"]
+    },
+    "Notification":{
+      "tRule":"Rule",
+      "tIf":"If dad's actions",
+      "tDetact": "Detected presence in",
+      "tSelect":"Select Area",
+      "tIn":"Between",
+      "tAnd":"and",
+      "tBet":"",
+      "tNotice":"Notify me after the specified time.",
+      "tDone":"Done",
+      "tReset":"Reset"
+
+
+
+
+
+    },
+    "Chat":{
+      "tCircleofSupport":"Mr. Wu's Circle of Support",
+      "tNurse":"Nurse",
+      "tEnter":"Enter Message"
+    },
+    "locales(map)": {
+      
+        "en_US": "English",
+        "zh_HK": "中文(繁體)",
+        "zh_CN":"中文(简体)"
+      
+    }
+
+  }

@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Flutter (Pixel 6 Pro API 33)",
+            "program": "lib/main.dart",
+            "deviceId": "emulator-5554",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Flutter (lib\\src\\features\\core\\screens\\dashboard\\new_dashboard.dart)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib\\src\\features\\core\\screens\\dashboard\\new_dashboard.dart"
+        }
+    ]
+}

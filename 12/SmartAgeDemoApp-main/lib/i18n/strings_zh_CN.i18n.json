@@ -1,0 +1,218 @@
+{
+    "mainScreen": {
+      "title": "爸爸的健康概览",
+      "iconText": {
+        "tDashBoardTitle":"Dad's Health Overview",
+        "tMessageButton": "信息",
+        "tCircleofSupport": "支援圈",
+        "tNotice": "通知",
+        "tCall": "通话",
+        "tActivityClockTitle": "居家活动时间表",
+        "tCheckActivityReport": "查看生活方式变化表"
+      },
+      "tapMe": "Tap me",
+      "tRooms":["------", "卧室", "浴室", "厨房"],
+
+      "tCNRooms" : ["------", "卧室", "浴室", "厨房"],
+      "warning":{
+        "tAlert":"最新紧急警报",
+        "tCheckAlert":"查看所有警报",
+        "tNotWakeup": "爸爸仍未起床！",
+        "tNotWakeupwithDate": "8月11日 10:00AM 爸爸仍未起床",
+        "tWarningTitle": "健康警告信号",
+        "tFormTitle": "辅助问卷",
+        "tNormalText": "正常",
+        "tAbnormalText": "异常",
+        "tWarningText": "警告"
+      },
+      "healthBlock":{
+        "tHealthBlockTitle": "今日维生指数",
+        "tHeartRate": "心率",
+        "tBloodOxygen": "血氧含量",
+        "tBloodPressure": "血压",
+        "tBodyTemp": "身体温度",
+        "tBloodSugar": "血糖水平",
+        "tHealthTitle": "健康详情"
+      }
+    },
+    "warningScreen":{
+      "tWarningTitle": "健康警告信号",
+      "tFormTitle": "辅助问卷",
+      "tNormalText": "正常",
+      "tAbnormalText": "异常",
+      "tWarningText": "警告",
+      "tContactElderly":"联络长者",
+      "tSettleNow": "立即处理",
+      "tRemind":"稍后处理",
+      "tSupport":"爸爸的支援圈成员",
+      "tLoc":"长者邻舍/活动中心的职员",
+      "tMs":"陈姑娘 （负责职员）",
+      "tSave":"请立即联络爸爸，确保安全",
+      "tCallIme":"立即通话",
+      "tWakeupTime":"[正常范围:起床时间为6:30AM-7:30AM]",
+      "tNotWakeup":"8 月 11 日 10:00AM 爸爸仍未起床",
+
+      "tSlpPtn":"睡眠习惯",
+      "tNocturia":"夜尿频繁情况"
+      ,
+      "tPastRV":"[过去一星期的平均如厕次数为 2.34次]",
+      "tPresentRV":"8 月 9 日 2:00AM 爸爸的如厕次数增加了5%",
+      "tToiletingHabit":"如厕习惯",
+      "tCheckAllActivities":"查看所有活动"
+
+
+  },
+    "profileScreen":{
+      "tProfile": "个人资料",
+      "tEditProfile": "编辑个人资料",
+      "tMenu1": "设定",
+      "tMenu4": "信息",
+      "tMenu2": "账单详情",
+      "tMenu3": "用户管理",
+      "tlogout":"注销",
+      "tlogoutDiag":"你是否想继续注销？",
+      "tYes":"是",
+      "tNo":"否"
+          
+    },
+    "tGlobal":{
+      "tNo": "否",
+      "tYes": "是",
+      "tCancel": "取消",
+      "tNext": "下一步",
+      "tLogin": "登入",
+      "tEmail": "电子邮件",
+      "tSignup": "注册",
+      "tLogout": "注销",
+      "tDelete":"删除",
+      "tPhoneNo": "电话号码",
+      "tPassword": "密码",
+      "tRepeatPW": "重复密码",
+      "tFullName": "全名",
+      "tOlderCode": "长者代码",
+      "tForgetPassword": "忘记密码",
+      "tSignInWithGoogle": "使用 Google 登入",
+      "tConfirmSignUp": "确认注册"
+    },
+    "noticeControl":{
+      "tBreakfast":"早餐",
+      "tLunch":"午餐",
+      "tLunchNo": "下午2:00至下午3:00之间通知我",
+      "tDinner": "晚餐",
+      "tDinnerNo": "下午10:00至下午11:00之间通知我",
+      "tOther": "其他用餐时间",
+      "tNotgetup":"早上10时仍未起床",
+      "tNotgoBed":"晚上12时后仍未入睡",
+      "tNotify":"在午夜00:00至01:00之间通知我",
+      "tVisitToiletTime": "白天上厕所超过10次",
+      "tNotifyT": "在晚上10:00至11:00之间通知我",
+      "tOverstay": "在浴室逗留时间过长",
+      "tNotifyI": "在上午10:00至11:00之间通知我",
+      "tDoor":"开门时间过长",
+      "tQuan": "本星期平均活动量低于过去一星期50%",
+      "tStep": "每日步伐次数",
+      "tMeals": "饮食",
+      "tSleeping": "睡眠",
+      "tGoToRestroom": "如厕",
+      "tDoorOpen": "门开",
+      "tActiveTime": "活动量"
+
+    },   
+    "circleOfSupportScreen":{
+      "tCoSScreenTitle": "爸爸的支援团",
+      "tCoSLeader": "支持团队长",
+      "tMember": "成员",
+      "tCoSMember": "支援团成员",
+      "tAddMember": "添加成员",
+      "tManage":"管理",
+      "tLeaveCos": "离开支援团",
+      "tLeaveCoSHint": "如果您不再是爸爸的支持团成员，您可随时离开"
+    },
+    "activityReport":{
+      "tActivityReportTitle": "爸爸的活动分析",
+      "tNormal":"正常活动",
+      "tAbnormal":"异常活动",
+      "tResult": "数据分析结果",
+      "tBefore":" (前)",
+      "tAfter": " (后)",
+      "tNormalDescription":"在睡觉期间并无活动",
+      "tAbnormalDescription":"在夜间有异常活动"
+
+    },
+    "chatListPage":{
+      "tTitle":"护士"
+    },
+    "reportWidget":{
+      "tLifestyle":"生活习惯模式",
+      "tWeekly":"长者七日生活状况",
+      "tMonthly":"长者一个月生活状况",
+      "tYearly":"长者一年生活状况",
+      "tMeal": "用餐时间",
+      "tFreq": "用膳频率：",
+      "tBF": "早餐：",
+      "tLunch": "午餐：",
+      "tDinner": "晚餐：",
+      "tSlp": "睡眠习惯及质量",
+      "tGetup": "起床：",
+      "tBed": "就寝时间：",
+      "tAvg": "平均睡眠时数：",
+      "tBodyMove": "身体动作：中低程度",
+      "tNight": "夜间起床："
+    },
+    "Settings":{
+      "tLang": ["English","中文(繁體)","中文(简体)"],
+      "tLangText":"语言:",
+      "tSettings":"设置",
+      "tSave":"储存此改变？",
+      "tSaveDes":"想要储存你的选择？"
+
+    },
+    "Question":{
+      "tQuestionnaire": "问卷：",
+      "tQuestionType":["夜尿频繁"],
+      "tButtonText":"联络长者",
+      "tContacted":"已联络长者！",
+      "tAskFill":"请您现在填写问卷",
+      "tEmpty":"你还有问题未填写",
+      "tDone":"问卷已填写！",
+      "tNotNow":"暂时不要",
+      "tContact":"联络长者",
+      "tIfNurse":"请问您需要护士咨询服务吗？",
+      "tQuestion1": "长者的夜尿次数是多少？",
+      "tQuestion2": "长者夜尿的颜色是甚么？",
+      "tQuestion3": "长者夜尿每次的量是多少？",
+      "tQuestion4": "长者在睡前2小时喝了多少水/饮料？",
+      "tQuestion5": "长者在夜尿前的一天有否进食刺激性食物或饮料 (包括咖啡、茶、酒等)？",
+      "tAnswer1": ["1次", "2次", "3次", "3次以上"],
+      "tAnswer2": ["透明", "淡黄", "黄色", "深黄", "含血", "多泡"],
+      "tAnswer3": ["比日间多", "与日间相若", "比日间少"],
+      "tAnswer4": ["<200mL", "200-400 ML", ">400ML"],
+      "tAnswer5": ["有", "无", "不知道"]
+    },
+    "Notification":{
+      "tRule":"规则名称",
+      "tIf":"如果爸爸的动作",
+      "tDetact":"检测到在",
+      "tSelect":"选择场所",
+      "tIn":"在",
+      "tAnd":"和",
+      "tBet":"之间",
+      "tNotice": "在指定时间后给我发通知",
+      "tDone":"完成",
+      "tReset":"重置"
+
+    },"Chat":{
+      "tCircleofSupport": "吴爷爷的支援圈",
+      "tNurse": "护士",
+      "tEnter": "输入信息"
+      },
+      "locales(map)": {
+      
+        "en_US": "English",
+        "zh_HK": "中文(繁體)",
+        "zh_CN":"中文(简体)"
+      
+    }
+  }
+  
+
