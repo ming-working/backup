@@ -53,9 +53,6 @@
         "tCheckAllActivities":"Check All Activities"
 
 
-  
-
-
     },
     "profileScreen":{
       "tProfile": "Profile",
@@ -88,7 +85,14 @@
       "tOlderCode": "Elder Code",
       "tForgetPassword": "Forget Password",
       "tSignInWithGoogle": "Sign In with Google",
-      "tConfirmSignUp": "Confirm Sign Up"
+      "tConfirmSignUp": "Confirm Sign Up",
+      "tGlobalYes": "Yes",
+      "tGlobalNo": "No",
+      "tGlobalCancel": "Cancel",
+      "tGlobalNext": "Next",
+      "tGlobalDelete": "Delete",
+      "tGlobalCall": "Call",
+      "tGlobalSetting": "Setting"
     },
     "noticeControl":{
       "tBreakfast":"No Breakfast",
@@ -116,14 +120,14 @@
 
     },
     "circleOfSupportScreen":{
-      "tCoSScreenTitle": "Circle of Support",
-      "tCoSLeader": "Leader",
-      "tMember": "Member",
-      "tCoSMember": "Members",
-      "tAddMember": "Add members",
-      "tManage":"Manage",
-      "tLeaveCos": "Leave Circle of Support",
-      "tLeaveCoSHint": "If you are no longer a member of Dad's support circle, you may leave at any time."
+      "tCoSTitle": "Circle of Support",
+      "tCoSLeader": "Super Admin",
+      "tCoSMember": "Member",
+      "tAddMember": "Add Member",
+      "tManageMember": "Manage Member",
+      "tLeave": "Leave Circle of Support",
+      "tLeaveDialog": "Do you want to leave the Circle of Support?",
+      "tKickMember": "Kick"
     },
     "activityReport":{
       "tActivityReportTitle": "Dad's Activity Analysis",

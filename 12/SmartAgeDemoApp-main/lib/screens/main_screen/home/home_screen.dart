@@ -11,6 +11,7 @@ import 'package:smartage_care/screens/main_screen/report/life_style_report.dart'
 import 'package:smartage_care/themes/widget_themes/elevated_button_theme.dart';
 import 'package:smartage_care/widgets/activity_clock/activity_clock.dart';
 import 'package:smartage_care/widgets/bodyheath/health_block.dart';
+import 'package:smartage_care/i18n/strings.g.dart';
 
 // import 'package:smartage_care/widgets/activity_clock/activity_clock.dart';
 
@@ -39,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                   child: Row(
                     children: [
                       Text(
-                        "healthBlockTitle".tr,
+                        '${t.mainScreen.healthBlock.tHealthBlockTitle}'.tr,
                         style: Theme.of(context).textTheme.displayLarge,
                       ),
                       // SvgPicture.asset(
@@ -67,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(
                       horizontal: 20), // Adjust the padding as needed
                   child: Text(
-                    "dashBoardActivityClockTitle".tr,
+                    '${t.mainScreen.iconText.tActivityClockTitle}'.tr,
                     style: Theme.of(context).textTheme.displayMedium,
                   ),
                 ),
@@ -86,7 +87,7 @@ class HomeScreen extends StatelessWidget {
                       );
                     },
                     light: true,
-                    text: "dashBoardCheckActivityReport".tr,
+                    text: '${t.mainScreen.iconText.tCheckActivityReport}'.tr,
                   ),
                 ),
 

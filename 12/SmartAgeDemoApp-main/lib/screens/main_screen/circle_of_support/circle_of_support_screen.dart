@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:smartage_care/constants/sizes.dart';
 import 'package:smartage_care/models/circler_of_support.dart';
 import 'package:smartage_care/models/user.dart';
+import 'package:smartage_care/i18n/strings.g.dart';
 
 class CircleOfSupportScreen extends StatefulWidget {
   const CircleOfSupportScreen({super.key});
@@ -59,7 +60,7 @@ class _CircleOfSupportScreenState extends State<CircleOfSupportScreen> {
               horizontal: smartAgeDefaultSize * 0.75,
             ),
             child: Text(
-              "CoSTitle".tr,
+              "${t.circleOfSupportScreen.tCoSTitle}".tr,
               style: Theme.of(context).textTheme.titleLarge,
             ),
           ),
@@ -73,7 +74,7 @@ class _CircleOfSupportScreenState extends State<CircleOfSupportScreen> {
             color:
                 Colors.green.withOpacity(0.2), // Assuming green300 is a color
             child: Text(
-              "CoSMember".tr,
+              "${t.circleOfSupportScreen.tCoSMember}".tr,
               style: Theme.of(context).textTheme.titleMedium,
             ),
           ),
@@ -111,7 +112,7 @@ class _CircleOfSupportScreenState extends State<CircleOfSupportScreen> {
                               onTap: () { print("Call Tapped"); }),
                           const SizedBox(width: 10),
                           Text(
-                            "globalCall".tr,
+                            "${t.tGlobal.tGlobalCall}".tr,
                             style: Theme.of(context).textTheme.labelLarge,
                           ),
 
@@ -125,7 +126,7 @@ class _CircleOfSupportScreenState extends State<CircleOfSupportScreen> {
                               onTap: () { print("Setting Tapped"); }),
                           const SizedBox(width: 10),
                           Text(
-                            "globalSetting".tr,
+                            "${t.tGlobal.tGlobalSetting}".tr,
                             style: Theme.of(context).textTheme.labelLarge,
                           ),
                           const SizedBox(width: 20),
@@ -140,7 +141,7 @@ class _CircleOfSupportScreenState extends State<CircleOfSupportScreen> {
                               onTap: () { print("Kick Tapped"); }),
                           const SizedBox(width: 10),
                           Text(
-                            "CoSKickMember".tr,
+                            "${t.circleOfSupportScreen.tKickMember}".tr,
                             style: Theme.of(context).textTheme.labelLarge,
                           ),
                           const SizedBox(width: 20),

@@ -44,7 +44,7 @@ class _BodyHealthBlocksState extends State<BodyHealthBlocks> {
             onTap: () {
               switch (index) {
                 case 0:
-                  Get.to(() => Settings());
+                  Get.to(() => const HeartRatePage());
                   break;
                 case 1:
                   Get.to(() => const BloodOxygenPage());

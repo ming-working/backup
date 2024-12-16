@@ -11,7 +11,7 @@ import 'package:smartage_care/services/authorization/profile_controller.dart';
 import 'package:smartage_care/services/localization/translation_controller.dart';
 import 'package:smartage_care/themes/widget_themes/elevated_button_theme.dart';
 import 'package:smartage_care/widgets/authenticate/pop_up/sign_out_pop_up.dart';
-
+import 'package:smartage_care/screens/main_screen/settings/settings.dart';
 class SettingScreen extends StatelessWidget {
   SettingScreen({super.key});
 
@@ -111,6 +111,26 @@ class SettingScreen extends StatelessWidget {
                                           .textTheme
                                           .displaySmall,
                                     ),
+                                  ],
+                                ),                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Language: ",
+                                      style: Theme.of(context)
+                                          .textTheme
+                                          .titleSmall,
+                                    ),ElevatedButton(
+                                        onPressed: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) => Settings(),
+                                            ),
+                                          );
+                                        },
+                                        child: Text('Settings'),
+                                      ),
                                   ],
                                 ),
                               ],

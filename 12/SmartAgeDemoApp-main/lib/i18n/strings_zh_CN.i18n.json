@@ -92,7 +92,14 @@
       "tOlderCode": "长者代码",
       "tForgetPassword": "忘记密码",
       "tSignInWithGoogle": "使用 Google 登入",
-      "tConfirmSignUp": "确认注册"
+      "tConfirmSignUp": "确认注册",
+      "tGlobalYes": "是",
+      "tGlobalNo": "否",
+      "tGlobalCancel": "取消",
+      "tGlobalNext": "下一步",
+      "tGlobalDelete": "删除",
+      "tGlobalCall": "通话",
+      "tGlobalSetting": "设置"
     },
     "noticeControl":{
       "tBreakfast":"早餐",
@@ -120,13 +127,18 @@
     },   
     "circleOfSupportScreen":{
       "tCoSScreenTitle": "爸爸的支援团",
-      "tCoSLeader": "支持团队长",
       "tMember": "成员",
-      "tCoSMember": "支援团成员",
-      "tAddMember": "添加成员",
       "tManage":"管理",
       "tLeaveCos": "离开支援团",
-      "tLeaveCoSHint": "如果您不再是爸爸的支持团成员，您可随时离开"
+      "tLeaveCoSHint": "如果您不再是爸爸的支持团成员，您可随时离开",
+      "tCoSTitle": "支援团",
+      "tCoSLeader": "支持团队长",
+      "tCoSMember": "支持团成员",
+      "tAddMember": "添加成员",
+      "tManageMember": "管理",
+      "tLeave": "离开支援团",
+      "tLeaveDialog": "如果您不再是爸爸的支持团成员，您可随时离开",
+      "tKickMember": "剔除"
     },
     "activityReport":{
       "tActivityReportTitle": "爸爸的活动分析",

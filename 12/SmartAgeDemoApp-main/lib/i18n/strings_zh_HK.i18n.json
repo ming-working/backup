@@ -93,7 +93,14 @@
       "tOlderCode": "長者代碼",
       "tForgetPassword": "忘記密碼",
       "tSignInWithGoogle": "使用 Google 登入",
-      "tConfirmSignUp": "確認註冊"
+      "tConfirmSignUp": "確認註冊",
+      "tGlobalYes": "是",
+      "tGlobalNo": "否",
+      "tGlobalCancel": "取消",
+      "tGlobalNext": "下一步",
+      "tGlobalDelete": "刪除",
+      "tGlobalCall": "通話",
+      "tGlobalSetting": "設置"
     },
     "noticeControl":{
       "tBreakfast":"早餐",
@@ -120,14 +127,14 @@
 
     },   
     "circleOfSupportScreen":{
-      "tCoSScreenTitle": "爸爸的支援團",
+      "tCoSTitle": "支援團",
       "tCoSLeader": "支援團隊長",
-      "tMember": "成員",
       "tCoSMember": "支援團成員",
       "tAddMember": "添加成員",
-      "tManage":"管理",
-      "tLeaveCos": "離開支援團",
-      "tLeaveCoSHint": "如果您不再是爸爸的支援團成員，您可隨時離開"
+      "tManageMember": "管理",
+      "tLeave": "離開支援團",
+      "tLeaveDialog": "如果您不再是爸爸的支援團成員，您可隨時離開",
+      "tKickMember": "剔除"
     },
     "activityReport":{
       "tActivityReportTitle": "爸爸的活動分析",
