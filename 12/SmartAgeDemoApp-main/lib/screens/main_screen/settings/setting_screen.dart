@@ -77,7 +77,7 @@ class SettingScreen extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                const SizedBox(height: 10),
+                                const SizedBox(height: 3),
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
@@ -95,7 +95,7 @@ class SettingScreen extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                const SizedBox(height: 10),
+                                const SizedBox(height: 3),
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
@@ -115,21 +115,16 @@ class SettingScreen extends StatelessWidget {
                                 ),                                Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
-                                    Text(
-                                      "Language: ",
-                                      style: Theme.of(context)
-                                          .textTheme
-                                          .titleSmall,
-                                    ),ElevatedButton(
-                                        onPressed: () {
-                                          Navigator.push(
-                                            context,
+                                      ElevatedButton(
+                                      onPressed: () {
+                                        Navigator.push(
+                                          context,
                                             MaterialPageRoute(
                                               builder: (context) => Settings(),
                                             ),
                                           );
                                         },
-                                        child: Text('Settings'),
+                                        child: Text('Language'),
                                       ),
                                   ],
                                 ),
