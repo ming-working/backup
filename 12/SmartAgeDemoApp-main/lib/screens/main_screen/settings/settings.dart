@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:smartage_care/i18n/strings.g.dart';
 import 'package:smartage_care/screens/welcome_screen/welcome_screen.dart';
 
+import 'package:smartage_care/screens/main_screen/home/home_screen.dart';
+import 'package:smartage_care/screens/main_screen/dashboard.dart';
 class Settings extends StatefulWidget {
   @override
   _SettingsState createState() => _SettingsState();
@@ -67,7 +69,7 @@ class _SettingsState extends State<Settings> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => WelcomeScreen(),
+        builder: (context) => Dashboard(),
       ),
     );
   }

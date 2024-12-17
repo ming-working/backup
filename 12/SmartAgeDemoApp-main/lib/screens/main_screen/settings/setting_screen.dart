@@ -12,6 +12,8 @@ import 'package:smartage_care/services/localization/translation_controller.dart'
 import 'package:smartage_care/themes/widget_themes/elevated_button_theme.dart';
 import 'package:smartage_care/widgets/authenticate/pop_up/sign_out_pop_up.dart';
 import 'package:smartage_care/screens/main_screen/settings/settings.dart';
+import 'package:smartage_care/i18n/strings.g.dart';
+
 class SettingScreen extends StatelessWidget {
   SettingScreen({super.key});
 
@@ -30,7 +32,7 @@ class SettingScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                "Settings",
+                "${t.tGlobal.tGlobalSetting}",
                 style: context.theme.textTheme.titleLarge,
               ),
               const SizedBox(
@@ -64,7 +66,7 @@ class SettingScreen extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     Text(
-                                      "Email: ",
+                                      "${t.tGlobal.tEmail}: ",
                                       style: Theme.of(context)
                                           .textTheme
                                           .titleSmall,
@@ -82,7 +84,7 @@ class SettingScreen extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     Text(
-                                      "Name: ",
+                                     "${t.tGlobal.tFullName}: ",
                                       style: Theme.of(context)
                                           .textTheme
                                           .titleSmall,
@@ -100,7 +102,7 @@ class SettingScreen extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     Text(
-                                      "Phone: ",
+                                      "${t.tGlobal.tPhoneNo}: ",
                                       style: Theme.of(context)
                                           .textTheme
                                           .titleSmall,
@@ -115,7 +117,7 @@ class SettingScreen extends StatelessWidget {
                                 ),                                Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
-                                      ElevatedButton(
+                                      SmartAgeElevatedButton(
                                       onPressed: () {
                                         Navigator.push(
                                           context,
@@ -124,7 +126,8 @@ class SettingScreen extends StatelessWidget {
                                             ),
                                           );
                                         },
-                                        child: Text('Language'),
+                                        text: t.Settings.tLangText,
+                                        light: true,
                                       ),
                                   ],
                                 ),
@@ -148,7 +151,7 @@ class SettingScreen extends StatelessWidget {
                 height: smartAgeDefaultSize * 2,
               ),
               SmartAgeElevatedButton(
-                text: "profileScreenLogout".tr,
+                text: "${t.tGlobal.tLogout}".tr,
                 light: false,
                 onPressed: () async {
                   await smartAgeSignOutPopUp(
