@@ -165,7 +165,7 @@
     },
     "Settings":{
       "tLang":["English","中文(繁體)","中文(简体)"],
-      "tLangText":"Language: ",
+      "tLangText":"Language",
       "tSettings":"Settings",
       "tSave":"Save Changes?",
       "tSaveDes":"Do you want to save your selection?"

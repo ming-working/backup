@@ -6,7 +6,7 @@
 /// Locales: 3
 /// Strings: 594 (198 per locale)
 ///
-/// Built on 2024-12-16 at 08:12 UTC
+/// Built on 2024-12-17 at 03:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -387,7 +387,7 @@ class _StringsSettingsEn {
 		'中文(繁體)',
 		'中文(简体)',
 	];
-	String get tLangText => 'Language: ';
+	String get tLangText => 'Language';
 	String get tSettings => 'Settings';
 	String get tSave => 'Save Changes?';
 	String get tSaveDes => 'Do you want to save your selection?';
@@ -791,7 +791,7 @@ class _StringsSettingsZhCn implements _StringsSettingsEn {
 		'中文(繁體)',
 		'中文(简体)',
 	];
-	@override String get tLangText => '语言:';
+	@override String get tLangText => '语言';
 	@override String get tSettings => '设置';
 	@override String get tSave => '储存此改变？';
 	@override String get tSaveDes => '想要储存你的选择？';
@@ -1195,7 +1195,7 @@ class _StringsSettingsZhHk implements _StringsSettingsEn {
 		'中文(繁體)',
 		'中文(简体)',
 	];
-	@override String get tLangText => '語言:';
+	@override String get tLangText => '語言';
 	@override String get tSettings => '設置';
 	@override String get tSave => '儲存此改變？';
 	@override String get tSaveDes => '想要儲存你的選擇？';
@@ -1482,7 +1482,7 @@ extension on Translations {
 			case 'Settings.tLang.0': return 'English';
 			case 'Settings.tLang.1': return '中文(繁體)';
 			case 'Settings.tLang.2': return '中文(简体)';
-			case 'Settings.tLangText': return 'Language: ';
+			case 'Settings.tLangText': return 'Language';
 			case 'Settings.tSettings': return 'Settings';
 			case 'Settings.tSave': return 'Save Changes?';
 			case 'Settings.tSaveDes': return 'Do you want to save your selection?';
@@ -1693,7 +1693,7 @@ extension on _StringsZhCn {
 			case 'Settings.tLang.0': return 'English';
 			case 'Settings.tLang.1': return '中文(繁體)';
 			case 'Settings.tLang.2': return '中文(简体)';
-			case 'Settings.tLangText': return '语言:';
+			case 'Settings.tLangText': return '语言';
 			case 'Settings.tSettings': return '设置';
 			case 'Settings.tSave': return '储存此改变？';
 			case 'Settings.tSaveDes': return '想要储存你的选择？';
@@ -1899,7 +1899,7 @@ extension on _StringsZhHk {
 			case 'Settings.tLang.0': return 'English';
 			case 'Settings.tLang.1': return '中文(繁體)';
 			case 'Settings.tLang.2': return '中文(简体)';
-			case 'Settings.tLangText': return '語言:';
+			case 'Settings.tLangText': return '語言';
 			case 'Settings.tSettings': return '設置';
 			case 'Settings.tSave': return '儲存此改變？';
 			case 'Settings.tSaveDes': return '想要儲存你的選擇？';

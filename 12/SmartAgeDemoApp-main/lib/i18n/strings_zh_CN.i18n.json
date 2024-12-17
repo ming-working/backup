@@ -173,7 +173,7 @@
     },
     "Settings":{
       "tLang": ["English","中文(繁體)","中文(简体)"],
-      "tLangText":"语言:",
+      "tLangText":"语言",
       "tSettings":"设置",
       "tSave":"储存此改变？",
       "tSaveDes":"想要储存你的选择？"

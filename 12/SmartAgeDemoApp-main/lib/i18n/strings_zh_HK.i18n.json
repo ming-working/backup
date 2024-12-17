@@ -169,7 +169,7 @@
     },
     "Settings":{
       "tLang":["English","中文(繁體)","中文(简体)"],
-      "tLangText":"語言:",
+      "tLangText":"語言",
       "tSettings":"設置",
       "tSave":"儲存此改變？",
       "tSaveDes":"想要儲存你的選擇？"

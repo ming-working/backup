@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smartage_care/i18n/strings.g.dart';
 import 'package:smartage_care/screens/welcome_screen/welcome_screen.dart';
-
 import 'package:smartage_care/screens/main_screen/home/home_screen.dart';
 import 'package:smartage_care/screens/main_screen/dashboard.dart';
 class Settings extends StatefulWidget {
@@ -83,7 +82,7 @@ class _SettingsState extends State<Settings> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(t.Settings.tLangText),
+            Text('${t.Settings.tLangText}:'),
             DropdownButton<String>(
               value: selectedValue,
               items: <String>[
